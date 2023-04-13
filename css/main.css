@@ -30,13 +30,38 @@
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.bg-primary {
+    background: var(--JD-primary-color);
+    border: var(--JD-primary-color);
+}
+
 .btn-primary {
     background: var(--JD-primary-color);
     border: var(--JD-primary-color);
 }
 
+.bg-secondary {
+    background: var(--JD-secondary-color);
+    border: var(--JD-secondary-color);
+}
+
 .btn-secondary {
     background: var(--JD-secondary-color);
     border: var(--JD-secondary-color);
+}
+
+.btn-info {
+    background: var(--light);
+    border: var(--light)
+}
+
+.nav-item {
+    color: var(--light);
+    border: var(--light);
+    font-size: larger;
+}
+
+.navbar-brand {
+    color: white;
 }
 
