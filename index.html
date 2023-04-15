@@ -16,7 +16,7 @@
 </head>
 <body class="btn-primary">
 <header role="banner">
-    <nav class="navbar btn-secondary" role="navigation">
+    <nav class="navbar btn-secondary" role="navigation" id="nav">
         <!-- Main navigation with logo -->
         <div class="nav-wrapper d-inline-flex">
         <img src="images/shyce_LOGO.png" alt="shyce's-brand-logo" class="brand-logo p-1 pure-img">
@@ -25,10 +25,11 @@
             <li class="nav-item"><a class="navbar-brand" href="about.html" aria-label="travel to about page">About</a></li>
             <li class="nav-item"><a class="navbar-brand" href="contact.html" aria-label="travel to contact page">Contact</a></li>
         </ul>
-        </div>
+        <a href="#main" aria-label="travel to main content" class="position-absolute btn-primary">Skip to Main content</a>
+    </div>
     </nav>
 </header>
-<main role="main">
+<main role="main" id="main">
     <!-- Main content of homepage with images and text-->
     <div class="container">
     <img src="images/1.png" alt="screenshot of fireworks edit" class="pure-img">
@@ -46,6 +47,7 @@
 
 <footer class="btn-secondary text-light" role="contentinfo">
     &copy; shyceIndustries 2018-2023
+    <a href="#nav">Back to top &uarr;</a>
 </footer>
 </body>
 </html>
