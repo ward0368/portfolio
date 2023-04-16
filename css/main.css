@@ -1,8 +1,9 @@
 /* BOOSTRAP AND PURE CSS ADJUSTMENTS, as well as font adjustments */
 
+/* Import for Heebo font */
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap');
 
-
+/* Adjusts root elements of bootstrap for customization */
 :root {
     --blue: #1E4C78;
     --indigo: #6610f2;
@@ -40,35 +41,42 @@ h1, h2, h3, h4, h5, h6, p, footer {
   font-family: 'Heebo', sans-serif;
 }
 
-/*  */
+/* Changes the background color for primary elements */
 .bg-primary {
     background: var(--JD-primary-color);
     border: var(--JD-primary-color);
 }
 
+/* Changes the color of primary buttons */
 .btn-primary {
     background: var(--JD-primary-color);
     border: var(--JD-primary-color);
 }
 
+/* Changes the background color for secondary elements */
 .bg-secondary {
     background: var(--JD-secondary-color);
     border: var(--JD-secondary-color);
 }
 
+/* Changes the color of secondary buttons */
 .btn-secondary {
     background: var(--JD-secondary-color);
     border: var(--JD-secondary-color);
 }
 
+/* Changes the color of info buttons */
 .btn-info {
     background: var(--light);
     border: var(--light)
 }
 
+/* Adds a margin to navigation */
 .nav {
     margin: auto;
 }
+
+/* Styles all navigation links */
 .navbar-brand {
     color: white;
     font-size: 40px;
@@ -76,24 +84,25 @@ h1, h2, h3, h4, h5, h6, p, footer {
     font-weight: bold;
 }
 
+/* Styles anchors and paragraphs */
 a, p {
   color: white;
   font-family: 'Heebo', sans-serif;
 }
 
-
+/* Adjusts spacing and size of anything with padding 1 */
 .p-1 {
     width: 20%;
     height: 20%;
     margin: auto;
 }
 
-
+/* adds hover animation to anything with padding 1 */
 .p-1:hover {
     animation: glowing 1300ms infinite;
 }
 
-
+/* Animation "glowing" which makes the element pulse and glow blue */
 @keyframes glowing {
     0% {
       background-color: #1E4C78;
