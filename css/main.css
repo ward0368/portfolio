@@ -97,6 +97,10 @@ a, p {
     margin: auto;
 }
 
+.p-2 {
+    margin: auto;
+}
+
 .container {
     margin: auto;
     text-align: center;
