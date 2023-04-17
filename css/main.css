@@ -97,18 +97,25 @@ a, p {
     margin: auto;
 }
 
+/* Adjusts spacing and size of anything with padding 2 */
 .p-2 {
     margin: auto;
     width: 100%;
 }
 
+/* Adjusts spacing and size of anything with padding 3 */
 .p-3 {
     margin: auto;
     width: 80%;
 }
 
+/* Adjusts spacing/position of containers */
 .container {
     margin: auto;
     text-align: center;
 }
 
+/* Adjusts spacing/position of columns for desktop version */
+.col-lg-8 {
+    margin: auto;
+}
