@@ -31,12 +31,26 @@
 </header>
 <main role="main" id="main">
     <!-- Main content of homepage with images and text-->
-    <img src="/images/video-camera.jpg" alt="image of video camera filming in library" class="pure-img p-3">
+    <picture>
+        <source srcset="images/video-camera-1152_x_648.jpg,
+        images/video-camera-1140_x_810.jpg 2x,
+        images/video-camera-1920_x_1080.jpg 3x"
+        media="(min-width: 600px)">
+    <img src="images/video-camera.jpg" alt="image of video camera filming in library" class="pure-img p-3" aria-details="film-camera-in-library-on-tripod">
+    </picture>
+
     <div class="container-fluid">
         <div class="row g-0">
             <!-- Image Section 1 (after effects) with different grid layouts for screen sizes using boostrap -->
             <div class="col-5 col-md-3">
-                <img src="images/1.png" alt="screenshot of fireworks edit" aria-details="girl-and-boy-flying-in-air-with-overlays-and-effects" class="pure-img p-2">
+                <picture>
+                    <source srcset="images/1-464_x_318.png,
+                    images/1-697_x_478.png 2x,
+                    images/1-1393_x_955.png 3x"
+                    media="(min-width: 600px)">
+                    <img src="images/1.png" alt="screenshot of fireworks edit" aria-details="girl-and-boy-flying-in-air-with-overlays-and-effects"class="pure-img p-2">
+                </picture>
+                
                 <h2 role="heading" class="text-light p-2 d-none d-md-flex m-0">After Effects Projects</h2>
                 <p class="text-light p-2 d-none d-md-flex m-0   ">At ShyceIndustries, we utilize the power of Adobe After Effects to bring our clients' visions to life. This powerful software allows us to create stunning visual effects, dynamic motion graphics, and seamless composites that add an extra layer of depth and dimension to our projects.</p>
             </div>
@@ -46,7 +60,13 @@
             </div>
         <!-- Image Section 2 (Premiere Pro) with different grid layouts for screen sizes using boostrap -->
             <div class="col-5 col-md-2">
+                <picture>
+                    <source srcset="images/2-464_x_318.png,
+                    images/2-697_x_478.png 2x,
+                    images/2-1393_x_955.png 3x"
+                    media="(min-width: 600px)">
                 <img src="images/2.png" alt="screenshot of paradise edit" aria-details="boy-with-lightning-sword-and-shockwave-around-him-charging-up" class="pure-img p-2">
+                </picture>
                 <h2 role="heading" class="text-light p-2 d-none d-md-flex m-0">Premiere Pro Projects</h2>
                 <p class="text-light p-2 d-none d-md-flex m-0">As one of the leading video editing programs on the market, Adobe Premiere Pro is an essential tool for our team at ShyceIndustries. Whether we're working on a short film, a commercial, or a full-length feature, Premiere Pro provides us with all the tools we need to bring our projects to life.</p>
             </div>
@@ -56,7 +76,13 @@
             </div>
         <!-- Image Section 3 (Illustrator) with different grid layouts for screen sizes using boostrap -->
             <div class="col-5 col-md-3">
+                <picture>
+                    <source srcset="images/4-464_x_318.png,
+                    images/4-697_x_478.png 2x,
+                    images/4-1393_x_955.png 3x"
+                    media="(min-width: 600px)">
                 <img src="images/4.png" alt="screenshot of sad4what edit" aria-details="girl-in-dark-lighting-with-my-time-trippy-text-next-to-her" class="pure-img p-2">
+                </picture>
                 <h2 role="heading" class="text-light p-2 d-none d-md-flex m-0">Illustrator Projects</h2>
                 <p class="text-light p-2 d-none d-md-flex m-0">We understand the importance of strong branding and visual design. That's why we rely on Adobe Illustrator to create high-quality graphics and logos for our clients. Illustrator allows us to create vector graphics that are scalable to any size, ensuring that our clients' logos look sharp and professional no matter where they're displayed.</p>
             </div>                
