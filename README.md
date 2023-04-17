@@ -1,5 +1,5 @@
 # portfolio
-# H2 My Web Dev II Final
+## My Web Dev II Final
 
 **All Wireframes are used as inspiration and not direct references or copies of what the website should look like, the website itself will be changed where needed for functionality and responsiveness purposes.**
 
