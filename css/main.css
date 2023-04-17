@@ -99,6 +99,12 @@ a, p {
 
 .p-2 {
     margin: auto;
+    width: 100%;
+}
+
+.p-3 {
+    margin: auto;
+    width: 80%;
 }
 
 .container {
